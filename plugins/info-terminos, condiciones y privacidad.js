@@ -68,66 +68,61 @@ let username = conn.getName(who)
 //user.registered = false
 
 let Terminos = `
-*_Toda la información que se mencione aquí no excluye a la Propietario del Bot, y Propietarios Acredores al uso de The LoliBot-MD_*
-*_No Somos responsables del desconocimiento que tenga por parte de esta información._* 
+
+* _ جميع المعلومات المذكورة هنا لا تستثني مالك الروبوت والمالكي الدائنين من استخدام ELGAZARBOT-MD_ *
+ * _ نحن لسنا مسؤولين عن قلة معرفتك بهذه المعلومات ._ *
 
 
-*TÉRMINOS DE PRIVACIDAD*
-_- Somos consciente del constante uso que le pueda dar al Bot, y también Garantizamos que la información como (imágenes, vídeos, enlaces, ubicación, Audios, Stickers, Gif, Contactos que Usted Proporcione en torno a Número(s) Oficial(es) No son ni serán Compartido Con Nadie, ni se usaran dicho Datos fuera del entorno del BOT._
+ * شروط الخصوصية *
+ _- نحن ندرك الاستخدام المستمر الذي يمكنك منحه للبوت ، ونضمن أيضًا أن المعلومات مثل (الصور ومقاطع الفيديو والروابط والموقع والتسجيلات الصوتية والملصقات و Gif وجهات الاتصال التي تقدمها حول الرقم (الأرقام الرسمية) )) لم ولن يتم مشاركتها مع أي شخص ، ولن يتم استخدام البيانات المذكورة خارج بيئة BOT.
 
-_- Lo que realicé con el BOT queda solo en Usted ya que en Número(s) Oficial(es) El Chat se Borra cada 24 Horas, según el tiempo de Mensajes Temporales de WhatsApp._
+ _- ما فعلته مع BOT متروك لك فقط لأنه في الرقم (الأرقام) الرسمية ، يتم حذف الدردشة كل 24 ساعة ، وفقًا لوقت رسائل WhatsApp المؤقتة ._
 
-_- Es posible que en Número(s) Oficial(es) el Bot no esté Activado las 24 Horas de los 7 días de la Semana, eso no implica que no lo esté o que Propietarios NO OFICIALES puedan Hacerlo._
+ _- من الممكن ألا يتم تنشيط الروبوت في الرقم (الأرقام) الرسمية 24 ساعة في اليوم ، 7 أيام في الأسبوع ، وهذا لا يعني أنه ليس كذلك أو أن المالكين غير الرسميين يمكنهم القيام بذلك ._
 
-_- El chat anónimo del comando #start, valga la redundancia no mostrará ningún dato de los Usuarios por parte de The LoliBot. Eso no implica que las personas que hagan uso de esta función puedan dar a conocer sus datos. en Número(s) Oficial(es)._
+ _- لن تعرض الدردشة المجهولة لأمر #start ، التي تستحق التكرار ، أي بيانات للمستخدمين بواسطة ElgazarBot.  هذا لا يعني أن الأشخاص الذين يستخدمون هذه الوظيفة يمكنهم الكشف عن بياناتهم.  في الرقم (الأرقام) الرسمية.
 
-_- NO somos responsable si Hay alteraciones de este Bot no siendo Número(s) Oficial(es) y tengan de uso un Repositorio de GitHub que no corresponda al Oficial, o que implementen Usuarios de Terceros integraciones que comprometan a los(as) Usuarios(as) al utilizar Versiones no Oficiales._
+ _- البيانات التي حصل عليها ElgazarBot في الحسابات الرسمية للمستخدمين والمجموعات والإعدادات الخاصة بها يمكن إعادة تشغيلها و / أو تعديلها و / أو تصحيحها من أجل أن يكون الروبوت في ظروف الاستخدام المثلى. (المستخدمون) يمكنهم طلب التعويض من خلال Instagram أو من خلال الأمر #Report. يجب عليك تقديم الدليل) ._
 
+ _- لسنا مسؤولين إذا كانت هناك تعديلات على هذا الروبوت ليست رقم (أرقام) رسمية وتستخدم مستودع GitHub الذي لا يتوافق مع المستوى الرسمي ، أو إذا قام مستخدمو الجهات الخارجية بتنفيذ عمليات تكامل تعرض المستخدمين للخطر (مثل) عندما باستخدام إصدارات غير رسمية.
 
-*TÉRMINOS DE USO* 
-_- La información que haya en este Bot y el/la usuario/a Haga uso de las Mismas asumirá saber los Términos y Condiciones de tal forma que no habrá incovenientes al hacer un uso Particular de las Funciones del Bot._
-
-_- El Bot contiene Material que solo puede ser visible para mayores de 18 Años, NO somos responsable si no cumple con la edad mínima para usar el Material para Adultos._
-
-_- Las imágenes, Vídeos y Audios que tenga este Bot son de uso Público, Pero se considerará Falta de Respeto al realizar Ediciones en el Material ya exitente que porte Nombre del Bot o información relevante._
-
-_- Al hacer uso de una solicitud para ingreso de grupo con Una Cuenta Oficial, es recomendable que el grupo no cuente con temas de Odio, virus, contenido indebido, temas de discriminación u campañas sin fundamentos._
-
-_- Si ha recibido un Comunicado Oficial siendo Número(s) Oficial(es) Mantener el Respeto de la misma manera si recibe un Mensaje sin haber usado un Comando Mantener el Respeto ya que puede en este ultimo caso ser una Persona Real._
+ _- تضمن وظيفة الروبوت الفرعي أمان بياناتك المطبقة على الحسابات الرسمية ._
 
 
-*CONDICIONES DE USO*
-_- NO haga ni intente Llamar o hacer Videollamada al Bot siendo Número(s) Oficial(es) ya que obstaculiza el funcionamiento del BOT._
+ *تعليمات الاستخدام*
+ _- المعلومات الموجودة في هذا الروبوت والمستخدم الذي يستخدمها سيفترض أنه يعرف الشروط والأحكام بطريقة لن تكون هناك أي مضايقات عند استخدام خاص لوظائف الروبوت ._
 
-_- NO usar el Bot siendo Número(s) Oficial(es) para llevar a cabo alguna acción hostil que pueda verse comprometida el Funcionamiento del BOT._
+ _- يحتوي الروبوت على مادة يمكن رؤيتها فقط للأشخاص الذين تزيد أعمارهم عن 18 عامًا ، ونحن لسنا مسؤولين إذا لم تستوف الحد الأدنى لسن استخدام المواد للبالغين ._
 
-_- NO use el comando de SPAM repetidamente, ya que Provocará un Mal funcionamiento en el BOT, tampoco envie al BOT mensajes que puedan comprometer el Funcionamiento de la misma._
+ _- الصور ومقاطع الفيديو والتسجيلات الصوتية التي يمتلكها هذا الروبوت للاستخدام العام ، ولكن سيتم اعتباره عدم احترام عند إجراء تعديلات على المواد الموجودة بالفعل والتي تحمل اسم الروبوت أو المعلومات ذات الصلة.
 
-_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarán las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de The LoliBot-MD._
+ _- عند الاستفادة من طلب عضوية المجموعة باستخدام "حساب رسمي" ، يوصى بعدم تعرض المجموعة لمشكلات كراهية أو فيروسات أو محتوى غير لائق أو مشكلات تمييزية أو حملات لا أساس لها.
 
+ _- إذا تلقيت اتصالًا رسميًا باعتباره رقمًا (أرقامًا) رسميًا ، فاحافظ على الاحترام بنفس الطريقة إذا تلقيت رسالة دون استخدام أمر الحفاظ على الاحترام لأنه في الحالة الأخيرة يمكن أن يكون شخصًا حقيقيًا.
 
-*ESTE ES EL REPOSITORIO OFICIAL*
-*https://github.com/elrebelde21/The-LoliBot-MD*
-
-*GRUPOS OFICIAL DE ASISTENCIA*
-*si necesitas ayuda o pregunta entra al grupo de bot ofc*
-*https://chat.whatsapp.com/Byyrc8RJnUkJw6vvUgsbDF*
-
-*CUENTA OFICIAL DE ASISTENCIA - FACEBOOK*
-~ _puede unirte al grupo asistencia facebook del bot_
-*https://facebook.com/groups/721802642266362/*
+ _- حسابات ElgazarBot الرسمية ليست مسؤولة عن الاستخدام الذي تقوم به مع وظيفة "Sub Bot" ._
 
 
-*~ Muchas Gracias Por tomarte el tiempo en informate sobre The LoliBot-MD*
+ *تعليمات الاستخدام*
+ _- لا تقم بإجراء أو محاولة الاتصال أو الاتصال بالفيديو مع الروبوت أثناء كونه رقمًا (أرقامًا) رسميًا لأنه يعيق تشغيل BOT._
+
+ _- لا تستخدم الروبوت كرقم (أرقام) رسمية لتنفيذ أي عمل عدائي قد يضر بعمل الروبوت.
+
+ _- لا تستخدم أمر الرسائل الاقتحامية (SPAM) بشكل متكرر ، حيث أنه سيتسبب في حدوث خلل في BOT ، ولا ترسل رسائل BOT التي قد تضر بوظائفها.
+
+ _- عند استخدام أوامر معينة تهدف إلى تقويض الانزعاج أو القلق أو الانزعاج أو أي مصطلح فظ آخر ، سيتم اتخاذ العقوبات أو مكالمات التنبيه ذات الصلة للسيطرة على سلامة المستخدمين وتشغيل ELGAZARBOT. _
+
+
+*~ شكرا جزيلا على الوقت الذي قضيته في إطلاع نفسك على ElgazarBot*
 `.trim()
-conn.sendHydrated(m.chat, Terminos,  `${wm}\nEstamos de acuerdo en Hacer Colaboraciones con Personas Comprometidas, manteniendo el Respeto Puedes Contactar si ese es el caso a esta Grupo Oficial asistencia facebook| https://facebook.com/groups/721802642266362/`, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', 'The LoliBot-MD', null, null, [
-['menu conpleto', '.allmenu'],
-['listamenu', '/menulista'],
-['menucompleto', '#menu']
+conn.sendHydrated(m.chat, Terminos,  `${wm}\nنحن نوافق على التعاون مع الأشخاص الملتزمين ، والحفاظ على الاحترام يمكنك الاتصال إذا كان هذا هو الحال لهذا الحساب الرسمي | https://wa.me/+201098906252?text=سلام`, pp, 'https://youtube.com/@ABDALLAH_MOHAMED', 'ELGAZAR-MD ', null, null, [
+//['جميع الأوامر💫', '.allmenu'],
+//['قائمة الأوامر🌟', '/menulista'],
+//['الأوامر ⚡', '#menu']
 ], m,)
 }
 
-handler.customPrefix = /terminos|términos|términos, condiciones y privacidad|terminos, condiciones y privacidad|términos y condiciones y privacidad|terminosycondicionesyprivacidad|terminosycondiciones|terminos y condiciones y privacidad|terminos y condiciones|terminos y condiciones|terminos de uso|Terminos de uso|Terminó se uso|términos de uso|Términos de uso|Términos y condiciones/i
+handler.customPrefix = /terminos|términos|términos, condiciones y privacidad|terminos, condiciones y privacidad|términos y condiciones y privacidad|الشروط|terminosycondiciones|terminos y condiciones y privacidad|terminos y condiciones|terminos y condiciones|terminos de uso|Terminos de uso|Terminó se uso|términos de uso|Términos de uso|Términos y condiciones/i
 handler.command = new RegExp
 //handler.register = true
 handler.exp = 70

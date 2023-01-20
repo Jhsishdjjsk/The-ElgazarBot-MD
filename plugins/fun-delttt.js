@@ -16,10 +16,10 @@ const fkontak = {
 }  
 
 let room = Object.values(conn.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))
-if (room == undefined) return conn.sendButton(m.chat, `𝑵𝒐 𝒆𝒔𝒕𝒂 𝒆𝒏 𝒏𝒊𝒏𝒈𝒖𝒏𝒂 𝒑𝒂𝒓𝒕𝒊𝒅𝒂 𝒆𝒏 𝒆𝒍 𝒋𝒖𝒆𝒈𝒐𝒔 𝒕𝒂𝒕𝒆𝒕𝒊`, wm, null, [['💫 𝑰𝒏𝒊𝒄𝒊𝒂 𝒑𝒂𝒓𝒕𝒊𝒅𝒂', `${usedPrefix}ttt sala nueva`]], fkontak, m)
+if (room == undefined) return conn.sendButton(m.chat, `${lenguajeGB['smsAvisoFG']()} أنت لست في أي لعبة أنا لعبة ثلاثة في الشارب `, wm, null, [['💫  | ابدأ اللعبة', `${usedPrefix}ttt sala nueva`]], fkontak, m)
 delete conn.game[room.id]
 
-await conn.sendButton(m.chat, `𝑳𝒂 𝒔𝒂𝒍𝒂 𝒅𝒆𝒍 𝒕𝒂𝒕𝒆𝒕𝒊 𝒇𝒖𝒆 𝒆𝒍𝒊𝒎𝒊𝒏𝒂`, wm, null, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪 ☘️', '/menu'] ], fkontak, m)}  
-handler.command = /^(delttt|deltt|delxo|deltictactoe)$/i
+await conn.sendButton(m.chat, `${lenguajeGB['smsAvisoEG']()} تم المسح `, wm, null, [[' قائمة الأوامر ☘️', '/menu'] ], fkontak, m)}  
+handler.command = /^(delttt|deltt|مسح|مغادره)$/i
 handler.fail = null
 export default handler

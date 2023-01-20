@@ -1,18 +1,38 @@
-let toM = a => '@' + a.split('@')[0]
+let toM = (a) => '@' + a.split('@')[0]
+
 function handler(m, { groupMetadata }) {
-let ps = groupMetadata.participants.map(v => v.id)
-let a = ps.getRandom()
-let b
-do b = ps.getRandom()
-while (b === a)
-let vn = './media/Vivan.mp3'
-conn.sendFile(m.chat, vn, 'Vivan.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true })
-m.reply(`*${toM(a)}, 𝙔𝙖 𝙚𝙨 𝙝𝙤𝙧𝙖 𝙙𝙚 𝙦𝙪𝙚 𝙩𝙚 💍 𝘾𝙖𝙨𝙚𝙨 𝙘𝙤𝙣 ${toM(b)}, 𝙇𝙞𝙣𝙙𝙖 𝙋𝙖𝙧𝙚𝙟𝙖 😉💓*`, null, {
-mentions: [a, b]
-  
-})}
-handler.help = ['formarpareja']
+  if (m.command === 'ugly' || m.command === 'formarparejas' || m.command === 'الاغبا') {
+    let ps = groupMetadata.participants.map((v) => v.id)
+    let a = ps.getRandom()
+    let b
+    do {
+      b = ps.getRandom()
+    } while (b === a)
+    m.reply(
+      `*أبشع الناس في المجموعة:*\n*${toM(a)}  و ${toM(b)}*`,
+      null,
+      {
+        mentions: [a, b],
+      }
+    )
+  } else if (m.command === 'اجمل') {
+    let ps = groupMetadata.participants.map((v) => v.id)
+    let a = ps.getRandom()
+    let b
+    do {
+      b = ps.getRandom()
+    } while (b === a)
+    m.reply(
+      `*أجمل شخصين في قروب* :\n*${toM(a)}  و ${toM(b)}*`,
+      null,
+      {
+        mentions: [a, b],
+      }
+    )
+  }
+}
+
+handler.help = ['ugly', 'الاغبا', 'اجمل']
 handler.tags = ['main', 'fun']
-handler.command = ['formarpareja','formarparejas']
+handler.command = ['ugly', 'formarparejas', 'الاغبا', 'اجمل']
 handler.group = true
-export default handler

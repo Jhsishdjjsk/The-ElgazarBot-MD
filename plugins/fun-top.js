@@ -19,7 +19,7 @@ let k = Math.floor(Math.random() * 70);
 let x = `${pickRandom(['🤓','😅','😂','😳','😎', '🥵', '😱', '🤑', '🙄', '💩','🍑','🤨','🥴','🔥','👇🏻','😔', '👀','🌚'])}`
 let l = Math.floor(Math.random() * x.length);
 let vn = `https://hansxd.nasihosting.com/sound/sound${k}.mp3`
-let top = `*${x} Top 10 ${text} ${x}*
+let top = `*${x} توب 10 ${text} ${x}*
     
 *1. ${user(a)}*
 *2. ${user(b)}*
@@ -32,18 +32,13 @@ let top = `*${x} Top 10 ${text} ${x}*
 *9. ${user(i)}*
 *10. ${user(j)}*`
 m.reply(top, null, { mentions: [a, b, c, d, e, f, g, h, i, j]})
-await delay(5000)
 conn.sendFile(m.chat, vn, 'error.mp3', null, m, true, {
 type: 'audioMessage',
 ptt: true })}
 handler.help = handler.command = ['top']
-handler.tags = ['fun']
+handler.tags = ['توب']
 handler.group = true
-handler.level = 1
-handler.money = 200
-handler.register = true
+handler.limit = 2
 export default handler
-const delay = time => new Promise(res => setTimeout(res, time))
-
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]}

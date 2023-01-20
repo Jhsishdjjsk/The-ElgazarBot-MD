@@ -1,20 +1,17 @@
 import { googleImage } from '@bochilteam/scraper'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-let user = global.db.data.users[m.sender]
-
-if (!text) throw `𝗤𝘂𝗲 𝗯𝘂𝘀𝗰𝗮𝗿? 🤔️\n 𝗨𝘀𝗲𝗿 𝙙𝙚 𝙡𝙖 𝙨𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚 𝙢𝙖𝙣𝙚𝙧𝙖\n𝗘𝗷𝗲𝗺𝗽𝗹𝗼\n*${usedPrefix + command} Loli*`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}استخدم كما يلي\n*${usedPrefix + command} ELGAZAR*\n*${usedPrefix + command} Cat*`
 const res = await googleImage(text)
 let image = res.getRandom()
 let link = image
-await delay(5000)
-conn.sendHydrated(m.chat, `✨ 𝙍𝙚𝙨𝙪𝙡𝙩𝙖𝙙𝙤: ${text}`, `${wm}`, link, link, '☘️ 𝙐𝙍𝙇', null, null, [
-['🔄 𝙎𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚', `/imagen ${text}`],
+conn.sendHydrated(m.chat, `💞 نتيجه البحث: ${text}`, `بحث جوجل | ${wm}`, link, link, '☘️ الرابط', null, null, [
+['🔄 الصوره التاليه', `/image ${text}`],
+//['🔍 𝙋𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 ', `#pinterest ${text}`],
+['💟 الاوامر', `.menu`],  
 ], m)
 }
 handler.help = ['gimage <query>', 'imagen <query>']
 handler.tags = ['internet', 'tools']
-handler.command = /^(gimage|image|imagen)$/i
+handler.command = /^(صورة|image|صوره)$/i
 handler.exp = 20
-handler.money = 40
 export default handler
-const delay = time => new Promise(res => setTimeout(res, time))

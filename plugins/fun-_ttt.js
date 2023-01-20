@@ -78,7 +78,7 @@ let expp2 = Math.floor(Math.random() * 2500)
 
 let winner = isSurrender ? room.game.currentTurn : room.game.winner
 let str = `
-🫂 𝙅𝙪𝙜𝙖𝙙𝙤𝙧𝙚𝙨:
+🫂  *:* اللاعبون
 *┈┈┈┈┈┈┈┈┈*
 ❎ = @${room.game.playerX.split('@')[0]}
 ⭕ = @${room.game.playerO.split('@')[0]}
@@ -87,8 +87,8 @@ let str = `
      ${arr.slice(3, 6).join('')}
      ${arr.slice(6).join('')}
 *┈┈┈┈┈┈┈┈┈*
-${isWin ? `@${(isSurrender ? room.game.currentTurn : room.game.winner).split('@')[0]} 😎🏆 *𝙂𝙖𝙣𝙖𝙧𝙩𝙚!!*\n*𝙋𝙤𝙧 𝙝𝙖𝙗𝙚𝙧 𝙜𝙖𝙣𝙖𝙙𝙤𝙨 𝙤𝙗𝙩𝙞𝙚𝙣𝙚*\n\n💎 *${dia2} 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨*\n🪙 *${tok2} 𝙏𝙤𝙠𝙚𝙣𝙨*\n🐈 *${gata2} 𝙇𝙤𝙡𝙞𝙘𝙤𝙞𝙣𝙨*\n⚡ *${expp2} 𝙀𝙭𝙥*` : isTie ? `*𝙀𝙢𝙥𝙖𝙩𝙚!!* 🤨\n*𝙋𝙤𝙧 𝙩𝙚𝙧𝙢𝙞𝙣𝙖 𝙚𝙡 𝙚𝙢𝙥𝙖𝙩𝙚 𝙖𝙢𝙗𝙤𝙨 𝙩𝙞𝙚𝙣𝙚*\n\n💎 *${dia} 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨*\n🪙 *${tok} 𝙏𝙤𝙠𝙚𝙣𝙨*\n🐈 *${gata} 𝙇𝙤𝙡𝙞𝙘𝙤𝙞𝙣𝙨*\n⚡ *${expp} 𝙀𝙭𝙥*` : `🪄 *𝙏𝙪𝙧𝙣𝙤 𝙙𝙚* @${room.game.currentTurn.split('@')[0]}`}
-`.trim()
+${isWin ? `@${(isSurrender ? room.game.currentTurn : room.game.winner).split('@')[0]} 😎🏆 *فاز!!*\n*لأنك فزت تحصل على*\n\n💎 *${dia2} الماس*\n🪙 *${tok2} توكين*\n *${gata2} كوينز*\n⚡ *${expp2} XP*` : isTie ? `*عناصر!!* 🤨\n *تعادل ستحصل كل واحد منكم* \n\n💎 *${dia} الماس*\n🪙 *${tok} توكين*\n *${gata} كوينز*\n⚡ *${expp} XP*` : `🪄 *بدوره من* @${room.game.currentTurn.split('@')[0]}`}
+`.trim() 
 let users = global.db.data.users
 if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
 room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
